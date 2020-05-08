@@ -1,4 +1,10 @@
 # Kirov.Extensions.ACM
+[![NuGet](https://img.shields.io/nuget/v/Kirov.Extensions.ACM.Abstractions.svg?style=flat-square&logo=nuget)](https://www.nuget.org/packages/Kirov.Extensions.ACM.Abstractions)
+[![NuGet](https://img.shields.io/nuget/dt/Kirov.Extensions.ACM.Abstractions?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Kirov.Extensions.ACM.Abstractions)
+[![GitHub issues](https://img.shields.io/github/issues/kirov-opensource/acm.svg?style=flat-square&logo=github)](https://github.com/kirov-opensource/acm/issues)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/kirov-opensource/acm.svg?style=flat-square&logo=github)
+![GitHub top language](https://img.shields.io/github/languages/top/kirov-opensource/acm.svg?style=flat-square&logo=github)
+
 为了能够实时从远程变更项目的配置以及实现统一管理，所以将项目的配置统一获取，ACM实现了调用方只需要填写远程服务器地址和授权信息，就能够实时获取到最新的配置信息，而无需关心如何获取.
 
 | Vendor | Support |  
