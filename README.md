@@ -70,7 +70,7 @@ public void Application_End(){
 ```
 
 
-#### `ASP.NET Core 2.2`
+#### `ASP.NET Core`
 #### 先决条件
 ##### `ACM`的相关配置是从环境变量读取的，因此需要配置以下环境变量，带`*`为必须。
 * `* ASPNETCORE_ACM_ALIYUN_NAMESPACE`
