@@ -215,7 +215,7 @@ namespace Colipu.Extensions.ACM.Aliyun
         {
             var request = WebRequest.Create(url) as HttpWebRequest;
             request.Method = "GET";
-            return (await GetResponseStringAsync(request.GetResponse() as HttpWebResponse)).Trim();
+            return (await GetResponseStringAsync(request.GetResponse() as HttpWebResponse)).Trim().Split('\n')[0];
         }
 
         private async Task<string> GetResponseStringAsync(HttpWebResponse webresponse)
